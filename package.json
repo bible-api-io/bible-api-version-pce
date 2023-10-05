@@ -1,0 +1,58 @@
+{
+  "name": "@bible-api/bible-api-version-pce",
+  "version": "1.0.0-pre.0",
+  "description": "King James Version (1900) for @bible-api/bible-api.",
+  "keywords": [
+    "bible-api",
+    "bible-api-version",
+    "kjv",
+    "kjv1900",
+    "pce"
+  ],
+  "homepage": "https://github.com/bible-api-io/bible-api-version-pce#readme",
+  "bugs": {
+    "url": "https://github.com/bible-api-io/bible-api-version-pce/issues",
+    "email": "contact@bible-api.io"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Bible API <contact@bible-api.io> (https://bible-api.io/)",
+  "contributors": [
+    "Daniel Ebert <090302@5409.dk> (https://godismyjudgebro.com/)"
+  ],
+  "files": [
+    "pce.json",
+    "index.js"
+  ],
+  "main": "index.js",
+  "directories": {
+    "doc": ".github/"
+  },
+  "repository": "github:bible-api-io/bible-api",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "3.0.2"
+  },
+  "private": false,
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "strict",
+    "jsxSingleQuote": true,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "semi": false,
+    "singleAttributePerLine": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": true
+  }
+}
