@@ -1,6 +1,6 @@
 {
   "name": "@bible-api/bible-api-version-pce",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "King James Version (1900) for @bible-api/bible-api.",
   "keywords": [
     "bible-api",
